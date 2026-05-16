@@ -3,14 +3,11 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const button = document.getElementById("button");
 
-button.addEventListener("click", function(e){
+button.addEventListener("click", function () {
 
-    e.preventDefault();
-
-    if(nom.value == "" || email.value == "" || password.value == ""){
+    if (nom.value === "" || email.value === "" || password.value === "") {
         alert("Les champs sont vides");
-    }
-    else{
+    } else {
         alert("Inscription réussie " + nom.value);
     }
 
