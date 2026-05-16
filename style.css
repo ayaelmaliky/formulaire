@@ -47,4 +47,24 @@ body{
     text-align: center;
     margin-top: 10px;
     color: green;
+
+}
+/* Style des liens */
+a{
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.formulaire p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
 }
